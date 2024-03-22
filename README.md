@@ -33,7 +33,9 @@ import 'package:date_input_formatter/date_input_formatter.dart';
 
 ## Usage
 
-I strongly suggest to set `enableInteractiveSelection` to `false` while using this package to prevent undesired problems.
+I strongly suggest these below parts while using this package to prevent undesired problems:    
+    -  set `enableInteractiveSelection` to `false`
+    -  also use `FilteringTextInputFormatter.allow(RegExp(r'[0-9/-]'))` 
 
 ```dart
     TextField(
