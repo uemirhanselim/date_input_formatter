@@ -16,6 +16,15 @@ A Dart package that provides a custom `TextInputFormatter` for formatting and va
 
 Note: This package is the improved version of `pattern_formatter` package by adding validations to `DateInputFormatter`.
 
+## Installation
+
+Add `dateinputformatter` as a dependency in your `pubspec.yaml` file:
+
+```yaml
+dependencies:
+  dateinputformatter: ^1.0.0
+```
+
 ## How to use
 
 ```dart
@@ -35,13 +44,4 @@ I strongly suggest to set `enableInteractiveSelection` to `false` while using th
         ],
         decoration: const InputDecoration(border: OutlineInputBorder()),
     ),
-```
-
-## Installation
-
-Add `dateinputformatter` as a dependency in your `pubspec.yaml` file:
-
-```yaml
-dependencies:
-  dateinputformatter: ^1.0.0
 ```
