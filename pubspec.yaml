@@ -4,7 +4,7 @@ version: 0.0.1
 homepage: https://github.com/uemirhanselim/date_input_formatter
 
 environment:
-  sdk: ">=3.3.0-279.2.beta <4.0.0"
+  sdk: ">=3.3.0 <4.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
